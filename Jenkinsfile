@@ -1,9 +1,15 @@
 pipeline {
     agent any
+
+     parameters {
+            string(name: 'Greeting', defaultValue: 'Santosh', description: 'How should I greet the world?')
+        }
+
     stages{
             stage("Checkout"){
                 steps{
                     echo 'Checking out the app from GIT'
+                    echo "${params.Greeting} World!"
                 }
             }
             stage("Build"){
