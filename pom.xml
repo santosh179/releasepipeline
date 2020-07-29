@@ -10,7 +10,7 @@
 
 	<groupId>com.santosh</groupId>
 	<artifactId>releasePipeline</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>releasePipeline</name>
 	<description>Demo Release pipeline with a micro service</description>
 
