@@ -16,6 +16,7 @@
 	<description>Demo Release pipeline with a micro service</description>
 
 	<scm>
+		<url>scm:git:git@github.com:santosh179/releasepipelineDemo.git</url>
 		<developerConnection>scm:git:git@github.com:santosh179/releasepipelineDemo.git</developerConnection>
 	</scm>
 
